@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.background{
+    background-image: url('main.png');
+    background-attachment: fixed;
+  height: 300vh;
+  width: 100%;
+  position:sticky;
+}
+
+.container1{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+.head{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+        gap: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+    margin: 20px 400px;
+}
+.head a {
+    text-decoration: none;
+    color: black;
+  justify-content: center;
+}
+.box1{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 350px;
+    width: 80%;
+    margin: 70px 100px 0px 100px ;
+    background-color: rgba(235, 226, 226, 0.769);
+ padding: 20px;
+ font-family: cursive;
+ background-image: url(main.png);
+ background-attachment: fixed;
+ background-size: 100%;
+}
+
+.box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 350px;
+    width: 80%;
+    margin: 100px 100px 0px 100px ;
+    background-color: rgba(255, 254, 254, 0.9);
+ padding: 20px;
+ font-family: cursive;
+ background-image: url(img1.png);
+ background-attachment: fixed;
+ background-size: 100%;
+
+}
+
+.box3{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 350px;
+    width: 80%;
+    margin: 100px 100px 0px 100px ;
+    background-color: rgba(255, 255, 255, 0.8);
+ padding: 20px;
+ font-family: cursive;
+ background-image: url(img3.png);
+ background-attachment: fixed;
+ background-size: 100%;
+ back
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+@media screen and (width<=576){
+    
+    .head{
+display: none;
+    }
+    
+}
